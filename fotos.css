@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://i.postimg.cc/K8fb9vF2/descargar.jpg) no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+}
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+section{
+    /* border: solid; */
+    margin-top: 8rem;
+    display: flex;
+    width: 700px;
+    height: 600px;
+}
+  
+
+    /* background-color: blue; */
+section img{
+    width: 0;
+    flex-grow:  1;
+    object-fit: cover;
+    transition: 0.5s ease;
+
+}
+
+section img:hover {
+    cursor: grab;
+    width: 300px;
+    border-radius: 58px;
+background: #aa0808a9;
+box-shadow:  26px 26px 29px #610505,
+             -26px -26px 29px #f30b0b;
+}
+    
+
